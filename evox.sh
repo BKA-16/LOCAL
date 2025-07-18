@@ -31,7 +31,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 source build/envsetup.sh
 
 # Lunch
-lunch lineage_mojito-bp1a-userdebug
+lunch lineage_mojito-bp2a-userdebug
 
 # Build rom
 m evolution
