@@ -1,0 +1,11 @@
+git clone https://github.com/BKA-16/device_xiaomi_mojito.git -b 16 device/xiaomi/mojito
+
+git clone https://github.com/BKA-16/device_xiaomi_sm6150-common.git -b 16 device/xiaomi/sm6150-common
+
+git clone https://github.com/BKA-16/kernel_xiaomi_mojito.git -b testing kernel/xiaomi/mojito
+
+git clone https://github.com/BKA-16/android_hardware_xiaomi.git -b mojito hardware/xiaomi
+
+git clone https://gitlab.com/romgharti/android_vendor_xiaomi_mojito.git -b 15 vendor/xiaomi/mojito
+
+git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git -b 15 vendor/xiaomi/sm6150-common
