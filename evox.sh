@@ -9,7 +9,7 @@ rm -rf vendor/xiaomi/mojito
 rm -rf vendor/xiaomi/sm6150-common
 
 # Rom source repo
-repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
+repo init --depth=1 --no-repo-verify -u https://github.com/Evolution-X/manifest -b bka --git-lfs
 
 # Clone repository
 git clone https://github.com/BKA-16/device_xiaomi_mojito.git -b 16 device/xiaomi/mojito
