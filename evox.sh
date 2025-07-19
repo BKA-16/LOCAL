@@ -16,7 +16,7 @@ git clone https://github.com/BKA-16/device_xiaomi_mojito.git -b 16 device/xiaomi
 
 git clone https://github.com/BKA-16/device_xiaomi_sm6150-common.git -b 16 device/xiaomi/sm6150-common
 
-git clone https://github.com/BKA-16/kernel_xiaomi_mojito.git -b testing kernel/xiaomi/mojito
+git clone https://github.com/BKA-16/kernel_xiaomi_mojito.git -b inline-rom kernel/xiaomi/mojito
 
 git clone https://github.com/BKA-16/android_hardware_xiaomi.git -b mojito hardware/xiaomi
 
@@ -31,7 +31,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 source build/envsetup.sh
 
 # Lunch
-lunch lineage_mojito-bp2a-eng
+lunch lineage_mojito-bp2a-userdebug
 
 # Build rom
 m evolution
